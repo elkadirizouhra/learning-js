@@ -1,5 +1,5 @@
 function start() {
-    window.location.href = 'page2.html';
+    window.location.href = './page2.html';
 }
 
 function submit() {
