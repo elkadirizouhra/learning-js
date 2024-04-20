@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 196, 179);
+    width: 500px;
+    height: 300px;
+    border: solid black 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    color: rgb(255, 38, 0);
+}
+
+/* Supprimez la classe .img du fichier CSS et utilisez directement le sélecteur img */
+.container img {
+    max-width: 100%;
+    height: auto;
+}
